@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Teacher_recommend/static/css/main.7f5ad536.chunk.css",
+    "main.css": "/Teacher_recommend/static/css/main.27f4c93c.chunk.css",
     "main.js": "/Teacher_recommend/static/js/main.3e55fd8f.chunk.js",
     "main.js.map": "/Teacher_recommend/static/js/main.3e55fd8f.chunk.js.map",
     "runtime-main.js": "/Teacher_recommend/static/js/runtime-main.9c50904f.js",
@@ -8,15 +8,15 @@
     "static/js/2.98714669.chunk.js": "/Teacher_recommend/static/js/2.98714669.chunk.js",
     "static/js/2.98714669.chunk.js.map": "/Teacher_recommend/static/js/2.98714669.chunk.js.map",
     "index.html": "/Teacher_recommend/index.html",
-    "precache-manifest.e30e9e8087699f3fbbbd502e59fdbbbe.js": "/Teacher_recommend/precache-manifest.e30e9e8087699f3fbbbd502e59fdbbbe.js",
+    "precache-manifest.6a46e1c9f6b91c008729555d2c0f79bd.js": "/Teacher_recommend/precache-manifest.6a46e1c9f6b91c008729555d2c0f79bd.js",
     "service-worker.js": "/Teacher_recommend/service-worker.js",
-    "static/css/main.7f5ad536.chunk.css.map": "/Teacher_recommend/static/css/main.7f5ad536.chunk.css.map",
+    "static/css/main.27f4c93c.chunk.css.map": "/Teacher_recommend/static/css/main.27f4c93c.chunk.css.map",
     "static/js/2.98714669.chunk.js.LICENSE": "/Teacher_recommend/static/js/2.98714669.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.9c50904f.js",
     "static/js/2.98714669.chunk.js",
-    "static/css/main.7f5ad536.chunk.css",
+    "static/css/main.27f4c93c.chunk.css",
     "static/js/main.3e55fd8f.chunk.js"
   ]
 }
