@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Route exact path="/">
+        <Route exact path={process.env.PUBLIC_URL + "/"}>
           <DashBoard></DashBoard>
         </Route>
-        <Route exact path="/login">
+        <Route exact path={process.env.PUBLIC_URL + "/login"}>
           <LoginPageCont></LoginPageCont>
         </Route>
       </Router>

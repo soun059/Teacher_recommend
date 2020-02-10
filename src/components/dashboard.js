@@ -85,7 +85,10 @@ class Dashboard extends React.Component {
           Pages
         </Typography>
         <List>
-          <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+          <Link
+            to={process.env.PUBLIC_URL + "/"}
+            style={{ textDecoration: "none", color: "black" }}
+          >
             <ListItem button>
               <ListItemIcon>
                 <SearchIcon></SearchIcon>
@@ -93,7 +96,10 @@ class Dashboard extends React.Component {
               <ListItemText primary="Find Teachers" />
             </ListItem>
           </Link>
-          <Link to="/group" style={{ textDecoration: "none", color: "black" }}>
+          <Link
+            to={process.env.PUBLIC_URL + "/group"}
+            style={{ textDecoration: "none", color: "black" }}
+          >
             <ListItem button>
               <ListItemIcon>
                 <PeopleIcon></PeopleIcon>
@@ -126,7 +132,7 @@ class Dashboard extends React.Component {
         </Typography>
         <List>
           <Link
-            to="/profile"
+            to={process.env.PUBLIC_URL + "/profile"}
             style={{ textDecoration: "none", color: "black" }}
           >
             <ListItem button>
@@ -220,13 +226,13 @@ class Dashboard extends React.Component {
           </nav>
           <main className={classes.content}>
             <div className={classes.toolbar} />
-            <Route exact path="/">
+            <Route exact path={process.env.PUBLIC_URL + "/"}>
               <FindTeachers></FindTeachers>
             </Route>
-            <Route exact path="/group">
+            <Route exact path={process.env.PUBLIC_URL + "/group"}>
               <Group></Group>
             </Route>
-            <Route exact path="/profile">
+            <Route exact path={process.env.PUBLIC_URL + "/profile"}>
               <Profile></Profile>
             </Route>
           </main>
