@@ -1,0 +1,29 @@
+@media screen and (min-width:420px) {
+    .img-wall {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .img-avatar {
+        height: 120px !important;
+        width: 120px !important;
+        margin-top: -50px;
+        margin-left: 10px;
+        background-color: purple !important;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .img-wall {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .img-avatar {
+        height: 70px !important;
+        width: 70px !important;
+        margin-top: -30px;
+        margin-left: 10px;
+        background-color: purple !important;
+    }
+}

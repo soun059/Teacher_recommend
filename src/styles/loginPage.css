@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap");
+
+.Login-body {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: fixed;
+  min-width: 100vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.switch {
+  color: #868686;
+  float: left;
+  margin-left: 10%;
+}
+
+.headers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login-header {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Poppins" sans-serif;
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08),
+    -6px -6px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+.Login-sub-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #868686;
+  font-style: italic;
+  font-family: "Poppins" sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2),
+    -6px -6px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+.Grid-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-pos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-box {
+  border-radius: 20px !important;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.2),
+    -5px -5px 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+.card-text {
+  color: #868686;
+}
+
+.card-text-button {
+  color: #868686;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-links {
+  color: #868686 !important;
+}
+
+.card-box {
+  max-width: 70% !important;
+}
+
+.inputEmail {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 599px) {
+  .card-login {
+    margin-top: 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .inputEmail {
+    margin-bottom: auto;
+  }
+
+  .Login-header {
+    margin-top: auto;
+    margin-left: 20px;
+  }
+
+  .Login-sub-header {
+    margin-left: 20px;
+  }
+
+  .card-text {
+    margin-top: -5px;
+  }
+
+  .card-box {
+    max-width: 90% !important;
+    margin-bottom: 20% !important;
+  }
+  .switch {
+    color: #868686;
+    float: right;
+    margin-right: 10%;
+  }
+  .inputEmail {
+    margin-bottom: 10px !important;
+  }
+}
